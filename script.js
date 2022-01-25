@@ -15,7 +15,7 @@ console.log(cantoras)
 
 // Utilize um método para adicionar dois nomes ao fim do array.
 
-cantoras.splice(0,0,"Simone","Simaria")
+cantoras.push("Simone","Simaria")
 console.log(cantoras)
 
 // Utilize um método para remover o primeiro nome do array.
@@ -29,4 +29,3 @@ const numbers = [7,5,6,3,8,9,2,1,4]
 console.log(numbers.sort(function(a,b){
 return(a-b)
 }))
-
